@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Game</title>
+    <style>
+        /* Basic styling for the game elements */
+        .button {
+            width: 50px;
+            height: 50px;
+            background-color: lightgray;
+            margin: 5px;
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 50px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Math Game</h1>
+
+    <!-- Game screen -->
+    <div id="playingScreen">
+        <div id="gameBoard">
+            <!-- Placeholder for the game buttons -->
+            <div id="board">
+                <div id="boardNum0" class="button"></div>
+                <div id="boardNum1" class="button"></div>
+                <div id="boardNum2" class="button"></div>
+                <div id="boardNum3" class="button"></div>
+                <div id="boardNum4" class="button"></div>
+                <div id="boardNum5" class="button"></div>
+                <div id="boardNum6" class="button"></div>
+                <div id="boardNum7" class="button"></div>
+                <div id="boardNum8" class="button"></div>
+                <div id="boardNum9" class="button"></div>
+                <div id="boardNum10" class="button"></div>
+                <div id="boardNum11" class="button"></div>
+                <div id="boardNum12" class="button"></div>
+                <div id="boardNum13" class="button"></div>
+                <div id="boardNum14" class="button"></div>
+                <div id="boardNum15" class="button"></div>
+            </div>
+            <button id="reset">Reset</button>
+            <button id="playAgain">Play Again</button>
+            <button id="mathChange">Change Math</button>
+            <p id="difficulty">Difficulty: Easy (Addition)</p>
+            <p>Score: <span id="yourScore">0</span></p>
+            <p>High Score: <span id="highScore">0</span></p>
+            <p>Timer: <span id="timer">0</span></p>
+        </div>
+    </div>
+
+    <!-- Screen to display when the player wins -->
+    <div id="winScreen" style="display: none;">
+        <h2>Congratulations!</h2>
+        <p>Your Score: <span id="yourScore"></span></p>
+        <button id="play">Play Again</button>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="game.js"></script>
+</body>
+</html>
