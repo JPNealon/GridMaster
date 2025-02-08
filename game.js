@@ -6,7 +6,7 @@
  * is to correctly perform an operation (addition or multiplication) to match a target result.
  * 
  * @package MathGame
- * @authors Trevor Cross, Jack Nealon (jnealon0805@gmail.com)
+ * @authors Trevor Cross, John Nealon (jnealon0805@gmail.com)
  * @license 
  * @version 1.0.0
  * @link 
