@@ -5,7 +5,7 @@
  * This is a math-based game where the player selects numbers from a grid, and the objective 
  * is to correctly perform an operation (addition or multiplication) to match a target result.
  * 
- * @package MathGame Gridmaster?
+ * @package MathGame Gridmaster
  * @authors Trevor Cross, John Nealon (jnealon0805@gmail.com)
  * @license 
  * @version 1.0.0
